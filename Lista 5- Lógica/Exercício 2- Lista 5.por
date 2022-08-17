@@ -1,19 +1,27 @@
-/* Escreva uma função que insere um nome em uma mensagem automática :
-Exemplo de entrada: Digite um nome: Fulano 
-Saída esperada: Bom dia, Fulano! 
+/* Escreva um programa que armazene X números em um vetor e calcule o valor médio do vetor. 
 */
 programa
 {
+	inteiro vetorValor[]= {1,2,3,4,5,6}, soma = 0
 	
+		
 	funcao inicio()
-	{    
-	     cadeia nome
-		escreva("Digite seu nome: ")
-		leia(nome)
-		mensagem(nome)
+	{
+		
+		para (inteiro i = 0; i < 6; i++){
+			soma = soma + vetorValor[i]
+		}
+
+		mediaVetor()
+		
 	}
-	funcao mensagem(cadeia nome){
-		escreva("Bom dia, ", nome, "!")
+
+	funcao mediaVetor()
+	{
+		
+		escreva("A soma dos valores é: ", soma,"\n")
+		escreva("A média dos valores é:", soma/6)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 339; 
+ * @POSICAO-CURSOR = 95; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -2,8 +2,8 @@ programa
 {
 	
 	funcao inicio()
-	{     inteiro n1=0, n2=0, operacao, soma, subtracao, multiplicacao= 1
-            real divisao
+	{     inteiro n1=0, n2=0, operacao, soma, subtracao, multiplicacao= 1
+           real divisao
 	     	escreva("Digite um número: ")
 	     	leia(n1)
 	     	escreva("Digite outro número: ")
@@ -19,18 +19,18 @@ programa
 	              caso 1: 
 	          	     soma = (n1 + n2)
 	           	     escreva(n1, "+", n2, " é igua a ", soma)
-	       
+	                    pare
 	               caso 2: 
 	               	subtracao = (n1 - n2)
 	               	  se (n2 > n1){
-	          	       soma = n2 + n1
+	          	       subtracao = n2 - n1
 	               	  }
 	               	escreva(n1, " -", n2, " é igual a ", subtracao)
-	              
+	                    pare
 	               caso 3:
 	               	divisao = n1 / n2
 	               	escreva(n1, " divido por ", n2, " é igual a", divisao)       
-	       
+	                    pare
 	              caso 4:
 	              	   multiplicacao = n1 * n2
 	              	   escreva(n1, " X ", n2, " é igual a ", multiplicacao)
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 592; 
+ * @POSICAO-CURSOR = 1078; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
